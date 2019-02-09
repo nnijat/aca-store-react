@@ -35,7 +35,8 @@ Fork, clone, install http-server or use live server
 
 ### ProductDetail
 * The ProductDetail should repesent only one single product
-* The ProductDetail should take a prop called product with is an object, and use it to populate price, name, description reviews and stars.
+* The ProductDetail should take a prop called `product` which is an object, and use it to populate price, name, description reviews and stars.
+* Remove all hard coded information and use the props
 
 ### Passing Props
 * Use the provided data in state.js to dynamically populate information instead of the hard coded html that is there now.
