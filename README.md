@@ -20,6 +20,7 @@ Fork, clone, install http-server or use live server
    * Footer
    * Carousel
    * Think of some other components you could make
+* Look in index.html for the existing html to use for the components
 * Make sure each component is in its own file and then used as a child component in App.js
 * Make sure to reference each component file in a script tag in index.html
 
@@ -27,7 +28,7 @@ Fork, clone, install http-server or use live server
 * Create a index.js file and put the code of rendering App into the div with id = root
 
 ### App 
-* Cut all the html out of index.html that is in the root div
+* Cut all whatever html is left in index.html and put it in App
 * Turn it into JSX by pasting it into your App.js component. 
 * Use all your other components in App
 * Make sure everything is valid JSX. Remember className.
