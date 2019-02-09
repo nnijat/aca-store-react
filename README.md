@@ -1,28 +1,47 @@
 #### Intro
-Our goal is to confidently say you could build amazon.com. Let's start off smaller and built a light weight ecommerce system. We are focusing on building the front end but you should be able to build the backend server with the skills you have developed so far. First we need to decide what components there should be. Our simple site will list out some hard coded products. Is this realistic? Would a small company only sell the same 10 items in a year. A user needs to be able to add a product to their shopping cart by clicking a button. How do you atually code the act of adding a product to the a digital shopping cart? The instructions are vague on purpose. You need to be able to think about these things and code them yourself. It doesn't matter how you do it. It just has to work. This application is based on an existing website that has no functionality. If you worked for this company they may ask you to fix their current website that doesn't do anything and make it functional for people to buy products on it.
+Our goal is to confidently say you could build amazon.com. Let's start off smaller and built a light weight ecommerce system. We are focusing on building the front end but you should be able to build the backend server with the skills you have developed so far. First we need to decide what components there should be. 
+
+Our simple site will list out some hard coded products. Is this realistic? Would a small company only sell the same 10 items in a year? A user needs to be able to add a product to their shopping cart by clicking a button. How do you atually code the act of adding a product to the a digital shopping cart? 
+
+The instructions are vague on purpose. You need to be able to think about these things and code them yourself. It doesn't matter how you do it. It just has to work. This application is based on an existing website that has no functionality. If you worked for this company they may ask you to fix their current website that doesn't do anything and make it functional for people to buy products on it.
+
+
 https://blackrockdigital.github.io/startbootstrap-shop-homepage/
 
-#### Setup
+### Setup
 Fork, clone, install http-server or use live server
 
-#### React components
- * Create a component folder to hold component files
+### Building React Components
+ * Create a component folder in /public/js to hold component files
  * Organize this web page into appropriate components
+   * App
    * ProductDetail
    * Header
    * Footer
    * Carousel
    * Think of some other components you could make
+* Make sure each component is in its own file and then used as a child component in App.js
+* Make sure to reference each component file in a script tag in index.html
+
+### index.js
+* Create a index.js file and put the code of rendering App into the div with id = root
+
+### App 
+* Cut all the html out of index.html that is in the root div
+* Turn it into JSX by pasting it into your App.js component. 
+* Use all your other components in App
+* Make sure everything is valid JSX. Remember className.
+
+### ProductDetail
 * The ProductDetail should repesent only one single product
 * The ProductDetail should take a prop called product with is an object, and use it to populate price, name, description reviews and stars.
-* Make sure each component is in its own file and imported into App.js
+
+### Passing Props
 * Use the provided data in state.js to dynamically populate information instead of the hard coded html that is there now.
 * In index.js provide App with a prop called "products" sending in the products array 
 * App should use the products prop and map the array of products into an array of ProductDetail components
 * Make the star images represent the number rating from data.
 * Bonus. Notice the grey stars.
-* Change App into a class component
-
 
 ### Add Item To Cart
 * Add a button to ProductDetail "Add To Cart"
@@ -48,12 +67,12 @@ Fork, clone, install http-server or use live server
 
 
 
-#### Server
+### Server
 * Create a database for this project
 * Create a web server for ths project
 * Create routes for products and orders
 
 
-#### Fetch
+### Fetch
 * Use fetch to retrieve products from your web api
 * Where should the fetch call be made?
