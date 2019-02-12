@@ -25,23 +25,22 @@ Fork, clone, install http-server or use live server
 
 ### index.js
 * Create a index.js file and put the code of rendering App into the div with id = root
+* Provide App with a prop called "products" sending in the global products array from state.js
 
 ### App 
 * Cut whatever html is left in index.html and turn it into JSX by pasting it into your App.js component. 
 * Use all your other components in App
 * Make sure everything is valid JSX. Remember className. HTML comments are not valid JSX.
+* App should use the products prop and map the array of products into an array of ProductDetail components
 
 ### ProductDetail
 * The ProductDetail should repesent only one single product
 * The ProductDetail should take a prop called `product` which is an object, and use it to populate price, name, description reviews and stars.
 * Remove all hard coded information and use the props
-
-### Passing Props
-* Use the provided data in state.js to dynamically populate information instead of the hard coded html that is there now.
-* In index.js provide App with a prop called "products" sending in the products array 
-* App should use the products prop and map the array of products into an array of ProductDetail components
 * Make the star images represent the number rating from data.
 * Bonus. Notice the grey stars.
+
+
 
 ### Add Item To Cart
 * Add a button to ProductDetail "Add To Cart"
