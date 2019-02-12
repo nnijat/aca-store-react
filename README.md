@@ -25,7 +25,7 @@ Fork, clone, install http-server or use live server
 
 ### index.js
 * Create a index.js file and put the code of rendering App into the div with id = root
-* Provide App with a prop called "products" sending in the global products array from state.js
+* Provide App with a prop called "products" sending in the products array from the global state variable in state.js
 
 ### App 
 * Cut whatever html is left in index.html and turn it into JSX by pasting it into your App.js component. 
