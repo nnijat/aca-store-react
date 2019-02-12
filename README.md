@@ -7,7 +7,8 @@ Our simple site will list out some hard coded products. Is this realistic? Would
 https://blackrockdigital.github.io/startbootstrap-shop-homepage/
 
 ### Setup
-Fork, clone, install http-server or use live server
+* Fork, clone, install http-server or use live server
+* Be aware of how to empty the cache
 
 # Part 1
 ### Building React Components
