@@ -9,6 +9,7 @@ https://blackrockdigital.github.io/startbootstrap-shop-homepage/
 ### Setup
 Fork, clone, install http-server or use live server
 
+# Part 1
 ### Building React Components
  * Create a component folder in /public/js to hold component files
  * Organize this web page into appropriate function components (not class components)
@@ -51,7 +52,7 @@ Fork, clone, install http-server or use live server
 * Make sure this is provided to Header from its parent components somehow
 
 
-
+# Part 2
 ### Add Item To Cart
 * Add a button to ProductDetail "Add To Cart"
 * When the button is clicked it should increase the value of the state numberOfItemsInCart by 1
