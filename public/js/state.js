@@ -3,7 +3,7 @@ state =  {
     products: [ {
       "id": 1,
       "name": "Body Luxuries Sweet Lavender Hand Sanitizer",
-      "description": "Psychotropic drugs, not elsewhere classified",
+      "description": "Cleans your hands",
       "reviews": 46,
       "rating": 2,
       "imgUrl": "http://dummyimage.com/136x167.bmp/cc0000/ffffff",
@@ -19,7 +19,7 @@ state =  {
     }, {
       "id": 3,
       "name": "Almond",
-      "description": "Other disorders of continuity of bone, unsp tibia and fibula",
+      "description": "Tastes hummy",
       "reviews": 27,
       "rating": 5,
       "imgUrl": "http://dummyimage.com/149x190.jpg/dddddd/000000",
@@ -35,7 +35,7 @@ state =  {
     }, {
       "id": 5,
       "name": "Decolorized Iodine",
-      "description": "Injury of prostate",
+      "description": "Kills germs",
       "reviews": 20,
       "rating": 1,
       "imgUrl": "http://dummyimage.com/120x245.jpg/cc0000/ffffff",
