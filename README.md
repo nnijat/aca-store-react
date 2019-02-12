@@ -20,9 +20,10 @@ Fork, clone, install http-server or use live server
    * Think of some other components you could make
 * Look in index.html for the existing html to use for the components
 * Use the comments and the expand/collapse feature of the editor to make sure you get the correct html. Normally you would need to figure this out yourself buy we are learning.
-* Put each component is in its own file
-* Reference each component file in a script tag in index.html
+* Put each component is in its own .js file
+* Reference each component file in a script tag in index.html, make sure its in the correct order.
 * Make sure to include type="text/babel"
+* As you include each script tag, refresh the page to make sure there are no errors
 * Don't forget props
 
 
