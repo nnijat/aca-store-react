@@ -19,7 +19,7 @@ Fork, clone, install http-server or use live server
    * Carousel
    * Think of some other components you could make
 * Look in index.html for the existing html to use for the components
-* Use the comments and the expand/collapse feature of the editor to make sure you get the correct html.
+* Use the comments and the expand/collapse feature of the editor to make sure you get the correct html. Normally you would need to figure this out yourself buy we are learning.
 * Put each component is in its own file
 * Reference each component file in a script tag in index.html
 * Make sure to include type="text/babel"
@@ -32,7 +32,7 @@ Fork, clone, install http-server or use live server
 * Provide App with a prop called "products" sending in the products array from the global state variable in state.js
 
 ### App 
-* Cut whatever html is left in index.html and turn it into JSX by pasting it into your App.js component. 
+* Cut whatever html is left inside the root div from index.html and turn it into JSX by pasting it into your App.js component. 
 * Use all your other components in App. Don't forget where they should have gone.
 * Make sure everything is valid JSX. Remember className. HTML comments are not valid JSX.
 * App should use the products prop and map the array of products into an array of ProductDetail components
