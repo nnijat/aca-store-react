@@ -19,9 +19,12 @@ Fork, clone, install http-server or use live server
    * Carousel
    * Think of some other components you could make
 * Look in index.html for the existing html to use for the components
-* Make sure each component is in its own file
-* Make sure to reference each component file in a script tag in index.html
+* Use the comments and the expand/collapse feature of the editor to make sure you get the correct html.
+* Put each component is in its own file
+* Reference each component file in a script tag in index.html
 * Make sure to include type="text/babel"
+* Don't forget props
+
 
 
 ### index.js
