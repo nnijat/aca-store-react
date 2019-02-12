@@ -11,7 +11,7 @@ Fork, clone, install http-server or use live server
 
 ### Building React Components
  * Create a component folder in /public/js to hold component files
- * Organize this web page into appropriate components
+ * Organize this web page into appropriate function components (not class components)
    * App
    * ProductDetail
    * Header
@@ -19,9 +19,10 @@ Fork, clone, install http-server or use live server
    * Carousel
    * Think of some other components you could make
 * Look in index.html for the existing html to use for the components
-* Make sure each component is in its own file and then used as a child component in App.js
+* Make sure each component is in its own file
 * Make sure to reference each component file in a script tag in index.html
 * Make sure to include type="text/babel"
+
 
 ### index.js
 * Create a index.js file and put the code of rendering App into the div with id = root
@@ -29,7 +30,7 @@ Fork, clone, install http-server or use live server
 
 ### App 
 * Cut whatever html is left in index.html and turn it into JSX by pasting it into your App.js component. 
-* Use all your other components in App
+* Use all your other components in App. Don't forget where they should have gone.
 * Make sure everything is valid JSX. Remember className. HTML comments are not valid JSX.
 * App should use the products prop and map the array of products into an array of ProductDetail components
 
