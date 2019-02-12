@@ -38,12 +38,17 @@ Fork, clone, install http-server or use live server
 * Make sure everything is valid JSX. Remember className. HTML comments are not valid JSX.
 * App should use the products prop and map the array of products into an array of ProductDetail components
 
+
 ### ProductDetail
 * The ProductDetail should repesent only one single product
 * The ProductDetail should take a prop called `product` which is an object, and use it to populate price, name, description reviews and stars.
 * Remove all hard coded information and use the props
 * Make the star images represent the number rating from data.
 * Bonus. Notice the grey stars.
+
+### Header
+* Header should require a prop numberOfItemsInCart that represents how many products are in the cart
+* Make sure this is provided to Header from its parent components somehow
 
 
 
