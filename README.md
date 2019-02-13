@@ -70,19 +70,17 @@ https://blackrockdigital.github.io/startbootstrap-shop-homepage/
 * How would Header now show how many items are in cart
 * Add a checkout button
 
+# Part 3
 ### Checkout
 * Let's create a very simple checkout process
 * When you click the checkout button, whatever products are in the cart should somehow be processed so a person knows to ship those products to the customer
 * The products in the cart need to be sent to the server to be saved as an order
 * When the products are recieved by the server, they need to be saved in a database 
 
-
-
 ### Server
 * Create a database for this project
 * Create a web server for ths project
 * Create routes for products and orders
-
 
 ### Fetch
 * Use fetch to retrieve products from your web api
