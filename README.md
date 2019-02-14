@@ -73,7 +73,8 @@ https://blackrockdigital.github.io/startbootstrap-shop-homepage/
 
 ### State
 * Change App into a class component so that it can maintain state and re render itself
-* Initialize the state property to a products array and a cart array 
+* Initialize the state property to shopping cart array 
+* Give the shopping cart array to the Header component
 * Make sure there is a method that allows adding products to the cart
     * Pass that method to ProductDetail
     * Make sure uses setState to change the state and then re render
