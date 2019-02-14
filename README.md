@@ -10,8 +10,8 @@ https://blackrockdigital.github.io/startbootstrap-shop-homepage/
 * Fork, clone, install http-server or use live server
 * Be aware of how to empty the cache
 
-# Part 1
-### Building React Components
+# Part 1 - Building React Components, Props and Dynamic Components
+### The components
  * Create a component folder in /public/js to hold component files
  * Organize this web page into appropriate function components (not class components)
    * App
@@ -53,7 +53,8 @@ https://blackrockdigital.github.io/startbootstrap-shop-homepage/
 * Make sure this is provided to Header from its parent components somehow
 
 
-# Part 2
+# Part 2 - Events, Component Comm and State
+
 ### Add Item To Cart
 * Add a button to ProductDetail "Add To Cart"
 * When the button is clicked it should increase the value of the state numberOfItemsInCart by 1
@@ -68,7 +69,15 @@ https://blackrockdigital.github.io/startbootstrap-shop-homepage/
 * How would you alter the structure of the state object to represent a realistic way to do this
 * How would you alter the data in the state object to represent adding an item to a cart
 * How would Header now show how many items are in cart
-* Add a checkout button
+* Add a checkout button to the Header
+
+### State
+* Change App into a class component so that it can maintain state and re render itself
+* Initialize the state property to a products array and a cart array 
+* Make sure there is a method that allows adding products to the cart
+    * Pass that method to ProductDetail
+    * Make sure uses setState to change the state and then re render
+    
 
 # Part 3
 ### Checkout
