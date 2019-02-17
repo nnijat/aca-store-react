@@ -69,7 +69,6 @@ https://blackrockdigital.github.io/startbootstrap-shop-homepage/
 * How would you alter the structure of the state object to represent a realistic way to do this
 * How would you alter the data in the state object to represent adding an item to a cart
 * How would Header now show how many items are in cart
-* Add a checkout button to the Header
 
 ### State
 * Change App into a class component so that it can maintain state and re render itself
