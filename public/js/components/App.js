@@ -2,6 +2,7 @@ function App(props) {
     return (
         <div class="App">
             {/*</div><!--<Header>-->*/}
+            <Headers />
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
@@ -14,8 +15,15 @@ function App(props) {
                     </div>
                     <div class="col-md-9">
                         {/*<!--<Carousel>-->*/}
+                        <Carousel />
                         <div class="row">
                             {/*<!--<ProductDetail>-->*/}
+                            {props.products.map((p, index) => {
+                                <ProductDetail
+                                    key={index}
+                                    product={p}
+                                />
+                            })}
                         </div>
                     </div>
                 </div>
@@ -23,6 +31,7 @@ function App(props) {
             <div class="container">
                 <hr />
                 {/*<!--</Footer>-->*/}
+                <Footer />
             </div>
         </div>
     )
