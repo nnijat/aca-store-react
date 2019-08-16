@@ -18,10 +18,10 @@ function App(props) {
                         <Carousel />
                         <div class="row">
                             {/*<!--<ProductDetail>-->*/}
-                            {props.products.map((p, index) => {
+                            {props.products.map((product, index) => {
                                 <ProductDetail
                                     key={index}
-                                    product={p}
+                                    product={product}
                                 />
                             })}
                         </div>
