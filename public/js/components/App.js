@@ -1,6 +1,6 @@
 class App extends React.Component {
     state = {
-        shoppingCart: [5]
+        shoppingCart: []
     }
 
     addToCart = (product) => {
@@ -33,6 +33,7 @@ class App extends React.Component {
                                     <ProductDetail
                                         key={index}
                                         product={product}
+                                        addToCart={this.addToCart}
                                     />
                                 })}
                             </div>

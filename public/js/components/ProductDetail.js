@@ -1,4 +1,7 @@
+import { STATES } from "mongoose";
+
 function ProductDetail(props) {
+    
     const stars = props.product.rating;
     const emptyStars = 5 - stars;
     let starArr = [];
@@ -29,7 +32,10 @@ function ProductDetail(props) {
                     </h4>
                     <p>{props.product.description}<a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
                 </div>
-                <button onClick={()=>{console.log("TODO: increament action")}}>Add To Cart</button>
+                <button id="addToCart" onClick={() => {
+                    state.numberOfItemsInCart += 1
+                    props.addToCart(props.product)
+                }}>Add To Cart</button>
                 <div class="ratings">
                     <p class="pull-right">{props.product.reviews} reviews</p>
                     <p>

@@ -1,3 +1,5 @@
+import { STATES } from "mongoose";
+
 function Header(props) {
     return (
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -23,7 +25,7 @@ function Header(props) {
                             <a href="#">Contact</a>
                         </li>
                         <li >
-                            <a href="#">Items In Cart ({props.shoppingCart})</a>
+                            <a href="#">Items In Cart ({state.numberOfItemsInCart})</a>
                         </li>
                     </ul>
                 </div>

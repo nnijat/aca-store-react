@@ -7,19 +7,17 @@ const app = express();
 require('dotenv').config;
 
 const DB_CONNECTION_STRING = process.env.CONNECTION_STRING;
-const thePort = 3001;
+const thePort = 3002;
 
 app.use(bodyParser.json());
 app.use(express.static("public"));
 app.use(orderRoute);
 app.use(productRoute);
 
-
-mongoose.connect(DB_CONNECTION_STRING, { useNewUrlParser: true }, (err) => {
+mongoose.connect('mongodb+srv://nn-database:nn0213@nn-aca-db-g06t0.mongodb.net/aca_database', { useNewUrlParser: true }, (err) => {
     console.log(err)
     console.log("Connected successfully to server");
 });
-
 
 app.listen(thePort, (err) => {
     if (err) {
